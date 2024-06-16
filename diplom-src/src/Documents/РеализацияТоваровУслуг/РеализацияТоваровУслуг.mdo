@@ -70,8 +70,10 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.РеализацияТоваровУслуг.Form.ФормаДокумента</defaultObjectForm>
   <defaultListForm>Document.РеализацияТоваровУслуг.Form.ФормаСписка</defaultListForm>
+  <realTimePosting>Deny</realTimePosting>
   <registerRecords>AccumulationRegister.ОстаткиТоваров</registerRecords>
   <registerRecords>AccumulationRegister.ОбработкаЗаказов</registerRecords>
+  <registerRecords>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="c7ac2c20-577c-4b41-9689-ee5f9e0b5bea">
@@ -410,4 +412,11 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <templates uuid="2ec12f5a-8f08-45eb-afd3-ffbc996d281d">
+    <name>ВКМ_ПФ_MXL_АктОказанныхУслуг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт оказанных услуг</value>
+    </synonym>
+  </templates>
 </mdclass:Document>

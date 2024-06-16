@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec27ac66-6460-4c01-b27b-0f986fad38d3">
+  <name>ВКМ_ОтчетРасходЗапланированныхОтпусков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет расход запланированных отпусков</value>
+  </synonym>
+</mdclass:Role>

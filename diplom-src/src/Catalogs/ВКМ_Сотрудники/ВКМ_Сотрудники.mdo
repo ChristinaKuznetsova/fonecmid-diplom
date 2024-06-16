@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1c87c98-91f6-4178-b390-2417bcfa0c02">
+  <producedTypes>
+    <objectType typeId="791d2334-6240-452c-a0e5-6f3a35eee93b" valueTypeId="de2b95f8-b0f9-4c0c-b063-11f1fd1008be"/>
+    <refType typeId="520dde2d-dca8-45ee-949f-1730e2eaebff" valueTypeId="69910371-d0db-4a44-a208-1a7653b0e4b3"/>
+    <selectionType typeId="cdea07e6-82bf-44e1-8bbf-bcd423e3d8d7" valueTypeId="2da6c960-d295-484b-ae0b-2dec14661b24"/>
+    <listType typeId="7ea81710-ab46-4b60-830e-e43d2162e717" valueTypeId="7e3b3518-600e-4435-bbd8-864e22f8a66b"/>
+    <managerType typeId="ca3ac8c3-57e3-48bd-a556-9b2bb6f42cae" valueTypeId="34c439fd-5a78-43ec-858b-35c9e7c1f811"/>
+  </producedTypes>
+  <name>ВКМ_Сотрудники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сотрудники</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВКМ_Сотрудники.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВКМ_Сотрудники.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="f51958a3-9d83-4d7a-94ea-c10b88036e33">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВКМ_Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
